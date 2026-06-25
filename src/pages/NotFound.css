@@ -1,0 +1,142 @@
+/* ============================================
+   404 PAGE  — Full-screen Yellow Bragit vibe
+   ============================================ */
+
+.nf-page {
+  background:
+    radial-gradient(circle at 18% 16%, rgba(255, 255, 255, 0.5), transparent 22%),
+    var(--color-yellow);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.nf-main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.nf-container {
+  width: 90%;
+  max-width: 1200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 60px 0 120px;
+}
+
+/* BIG 404 */
+.nf-hero { width: 100%; }
+
+.nf-big-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cal Sans', 'Inter', sans-serif;
+  font-size: clamp(140px, 24vw, 280px);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #111111;
+  gap: clamp(0px, 2vw, 24px);
+}
+
+.nf-zero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* Make the logo sit "in" the zero position */
+}
+
+.nf-zero-logo {
+  width: clamp(100px, 18vw, 200px);
+  height: clamp(100px, 18vw, 200px);
+  object-fit: contain;
+  /* dark logo on yellow bg */
+  filter: brightness(0);
+  animation: spin-logo 20s linear infinite;
+}
+
+@keyframes spin-logo {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* TEXT CONTENT */
+.nf-content { max-width: 680px; }
+
+.nf-title {
+  font-family: 'Cal Sans', 'Inter', sans-serif;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  color: #111111;
+  margin: 0 0 20px 0;
+}
+
+.nf-accent {
+  /* Outlined text */
+  color: transparent;
+  -webkit-text-stroke: 2px #111111;
+}
+
+.nf-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: rgba(17, 17, 17, 0.65);
+  margin: 0 0 48px 0;
+}
+
+/* BUTTONS */
+.nf-actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nf-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #111111;
+  color: var(--color-yellow, #FFB800);
+  padding: 18px 36px;
+  border-radius: 100px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+.nf-btn-primary:hover { transform: translateY(-3px); opacity: 0.9; }
+
+.nf-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  color: #111111;
+  padding: 18px 36px;
+  border-radius: 100px;
+  border: 2px solid rgba(17,17,17,0.3);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+.nf-btn-secondary:hover {
+  background: #111111;
+  color: var(--color-yellow, #FFB800);
+  border-color: #111111;
+  transform: translateY(-3px);
+}

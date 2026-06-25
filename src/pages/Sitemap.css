@@ -1,0 +1,108 @@
+.sitemap-page {
+  min-height: 100vh;
+  background: #fff;
+}
+
+.sitemap-main {
+  padding-top: 185px;
+  padding-bottom: 120px;
+}
+
+.sitemap-header {
+  display: grid;
+  grid-template-columns: 1fr minmax(280px, 0.65fr);
+  gap: 35px 80px;
+  align-items: end;
+  padding-bottom: 70px;
+  border-bottom: 1px solid rgba(11, 11, 11, 0.12);
+}
+
+.sitemap-header .premium-label {
+  grid-column: 1 / -1;
+  width: fit-content;
+}
+
+.sitemap-header h1 {
+  margin: 0;
+  font-size: clamp(3rem, 6vw, 6.4rem);
+  line-height: 0.9;
+  letter-spacing: -0.065em;
+}
+
+.sitemap-header p {
+  max-width: 460px;
+  margin: 0 0 8px auto;
+  color: rgba(11, 11, 11, 0.58);
+  font-size: 1.02rem;
+  line-height: 1.65;
+}
+
+.sitemap-groups {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  padding-top: 54px;
+}
+
+.sitemap-group {
+  min-height: 460px;
+  padding: 28px;
+  border: 1px solid rgba(11, 11, 11, 0.1);
+  border-radius: 28px;
+  background: #f7f7f4;
+}
+
+.sitemap-group:nth-child(2) {
+  background: var(--color-yellow);
+}
+
+.sitemap-group-number {
+  color: rgba(11, 11, 11, 0.45);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.sitemap-group h2 {
+  margin: 28px 0 48px;
+  font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+  letter-spacing: -0.045em;
+}
+
+.sitemap-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.sitemap-links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 17px 0;
+  border-top: 1px solid rgba(11, 11, 11, 0.12);
+  color: #111;
+  font-weight: 650;
+}
+
+.sitemap-links svg {
+  flex: 0 0 auto;
+  transition: transform 0.25s ease;
+}
+
+.sitemap-links a:hover svg {
+  transform: translate(3px, -3px);
+}
+
+@media (max-width: 900px) {
+  .sitemap-groups { grid-template-columns: 1fr; }
+  .sitemap-group { min-height: 0; }
+}
+
+@media (max-width: 640px) {
+  .sitemap-main { padding-top: 135px; padding-bottom: 80px; }
+  .sitemap-header { grid-template-columns: 1fr; gap: 24px; padding-bottom: 48px; }
+  .sitemap-header p { margin-left: 0; }
+  .sitemap-groups { padding-top: 34px; }
+  .sitemap-group { padding: 24px; border-radius: 22px; }
+}

@@ -1,0 +1,306 @@
+{
+  "home": {
+    "showcaseImage": "/project-images/hero-image.webp",
+    "aboutLead": "A beard grows on its own. A brand doesn’t. Ignore your brand for a few weeks, and someone else may already be taking your place. Bragit brings strategy, creativity and execution together to help businesses stand out, build a personality and leave a lasting impression.",
+    "aboutStats": [
+      {
+        "label": "Happy Clients",
+        "value": 16,
+        "suffix": "+"
+      },
+      {
+        "label": "Projects Delivered",
+        "value": 25,
+        "suffix": "+"
+      },
+      {
+        "label": "Client Satisfaction",
+        "value": 94,
+        "suffix": "%"
+      }
+    ]
+  },
+  "about": {
+    "heroImage": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1500&q=85",
+    "ribbonImages": [
+      "/work-showcase.avif",
+      "/work-showcase.avif",
+      "/work-showcase.avif",
+      "/work-showcase.avif"
+    ],
+    "valueImages": [
+      "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=85"
+    ]
+  },
+  "services": [
+    {
+      "id": "01",
+      "title": "Marketing, PR & Events",
+      "desc": "Research-led campaigns, brand launches and on-ground experiences that turn the right message into attention, momentum and memorable real-world moments.",
+      "tags": [
+        "Campaign strategy",
+        "PR & launches",
+        "Event execution"
+      ],
+      "images": [
+        "/project-images/mockup-28.webp",
+        "/project-images/iphone-16-pro.webp"
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Social Media, Content & UGC",
+      "desc": "Platform-ready social ideas, content systems and creator-led storytelling that keep your brand recognisable, relevant and genuinely worth following.",
+      "tags": [
+        "Content strategy",
+        "Social creatives",
+        "Creator content"
+      ],
+      "images": [
+        "/project-images/free-iphone-air.webp",
+        "/project-images/iphone-16-pro.webp"
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Branding & Design",
+      "desc": "Distinctive visual identities and practical brand systems that help businesses communicate clearly, stand confidently and stay consistent everywhere.",
+      "tags": [
+        "Brand identity",
+        "Packaging design",
+        "Brand guidelines"
+      ],
+      "images": [
+        "/project-images/brand-identities-1.webp",
+        "/project-images/hero-image.webp"
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Photography, Videography & Animation",
+      "desc": "Art-directed photography, films and motion-led storytelling that bring products, people and campaign ideas to life with a clear brand point of view.",
+      "tags": [
+        "Brand shoots",
+        "Campaign films",
+        "Motion graphics"
+      ],
+      "images": [
+        "/project-images/hero-image.webp",
+        "/project-images/mockup-28.webp"
+      ]
+    }
+  ],
+  "founders": [
+    {
+      "image": "/founders/akash-nargotra.webp",
+      "name": "Akarsh Nargotra",
+      "role": "Founder"
+    },
+    {
+      "image": "/founders/goutam-sabarwal.webp",
+      "name": "Goutam Sabarwal",
+      "role": "Co-Founder & Marketing Head"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "01",
+      "quote": "We're a small business with a big dream, and Bragit made sure that dream reached the right audience. From branding to social media, their team nailed it.",
+      "name": "Daniel Reed",
+      "title": "Owner, Brew & Bean",
+      "image": "/founders/akash-nargotra.webp"
+    },
+    {
+      "id": "02",
+      "quote": "As a brand focused on sustainability, we needed marketing that aligned with our values. Bragit not only respected our vision but elevated it.",
+      "name": "Ryan Adams",
+      "title": "Co-Founder, UrbanCart",
+      "image": "/founders/goutam-sabarwal.webp"
+    },
+    {
+      "id": "03",
+      "quote": "We've worked with other agencies before, but Bragit brought a whole new level of energy and expertise. They helped us scale fast.",
+      "name": "Alex Morgan",
+      "title": "Head of Growth, Nova Fitness",
+      "image": "/founders/akash-nargotra.webp"
+    },
+    {
+      "id": "04",
+      "quote": "Working with Bragit was a game changer for our online presence. Their strategic approach repositioned us perfectly in a crowded market.",
+      "name": "Sarah Jenkins",
+      "title": "Marketing Director, ElevateTech",
+      "image": "/founders/goutam-sabarwal.webp"
+    },
+    {
+      "id": "05",
+      "quote": "Absolutely blown away by the creative direction! Bragit understood exactly what we wanted before we even said it.",
+      "name": "Michael Chen",
+      "title": "CEO, Nexa Dynamics",
+      "image": "/founders/akash-nargotra.webp"
+    },
+    {
+      "id": "06",
+      "quote": "The best growth partners we've ever had. Our engagement has skyrocketed since Bragit took over our campaigns.",
+      "name": "Priya Sharma",
+      "title": "Founder, Luxe Living",
+      "image": "/founders/goutam-sabarwal.webp"
+    },
+    {
+      "id": "07",
+      "quote": "From day one, they felt like an extension of our own team. Quick, responsive, and incredibly talented.",
+      "name": "David O'Connor",
+      "title": "Operations Lead, Peak Solutions",
+      "image": "/founders/akash-nargotra.webp"
+    },
+    {
+      "id": "08",
+      "quote": "If you want premium, polished, and result-driven branding, Bragit is the only agency you need to call.",
+      "name": "Emily Watson",
+      "title": "Creative Director, Studio 99",
+      "image": "/founders/goutam-sabarwal.webp"
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": "burger-bazaar",
+      "number": "01",
+      "title": "Burger Bazaar",
+      "subtitle": "Brand Identity & Social Launch",
+      "summary": "Building a brand was never easy and social media is what shapes a brand's image and tells its story. At Bragit, we were responsible for creating the very first impression of Burger Bazaar as a brand.",
+      "tags": [
+        "Brand Identity",
+        "Social Media",
+        "Influencer Marketing"
+      ],
+      "client": "Burger Bazaar",
+      "category": "F&B Brand Launch",
+      "period": "2024 — 2025",
+      "services": "Branding, Social Media, Influencer Marketing",
+      "brief": "The founder gave us one clear brief: \u201cIt\u2019s gonna be chaotic. We won\u2019t just serve burgers, we\u2019ll be serving chaos.\u201d This one line became the foundation of everything we built.",
+      "steps": [
+        {
+          "title": "Logo & Brand Identity",
+          "body": "We chose red and black as the core palette — colours that convey strength and a hint of danger, perfectly fitting the brand's chaotic personality. At the same time, we kept the logo minimal by design, ensuring the focus would always stay on the product and not get lost in visual noise."
+        },
+        {
+          "title": "Visual Identity & Content",
+          "body": "We carried the same red-and-black theme through the brand's portfolio shoot, creating a consistent, bold visual identity. The content and page aesthetic were crafted to be quirky and unapologetic, designed specifically to appeal to a Gen Z audience."
+        },
+        {
+          "title": "Visibility & Brand Recall",
+          "body": "To get the brand in front of the right audience, we leaned into influencer marketing — a strategy that significantly boosted brand recall and got people talking about Burger Bazaar."
+        }
+      ],
+      "result": "Today, Burger Bazaar is a fully operational cloud kitchen, proudly serving chaos through its burgers across Jammu — and the brand identity which Bragit built continues to be the face of that story.",
+      "tone": "stone",
+      "image": "/project-images/brand-identities-1.webp",
+      "imagePosition": "center center",
+      "gallery": [
+        {
+          "src": "/project-images/brand-identities-1.webp",
+          "position": "center center"
+        },
+        {
+          "src": "/project-images/mockup-28.webp",
+          "position": "center center"
+        },
+        {
+          "src": "/project-images/free-iphone-air.webp",
+          "position": "center center"
+        }
+      ]
+    },
+    {
+      "id": "jammu-doors",
+      "number": "02",
+      "title": "Jammu Doors",
+      "subtitle": "Lead Generation & Social Media",
+      "summary": "A brand becomes sustainable only when clients walk through the door — quite literally, in this case. Jammu Doors had been established well before we came on board and was already doing good business. But they were looking for more leads.",
+      "tags": [
+        "Lead Generation",
+        "Social Media",
+        "UGC"
+      ],
+      "client": "Jammu Doors",
+      "category": "Home & Interiors Marketing",
+      "period": "2024 — 2025",
+      "services": "Social Media, Content Strategy, UGC",
+      "brief": "The founder's brief was simple and direct: he wanted leads. That was the singular purpose behind running a social media campaign — nothing more, nothing less.",
+      "steps": [
+        {
+          "title": "Product Showcase & USP",
+          "body": "We took on the assignment and planned our strategy around it. The focus was on showcasing the product in a way that would genuinely attract clients, while clearly highlighting Jammu Doors' key USP — fully customizable doors tailored to each customer's needs."
+        },
+        {
+          "title": "Building Trust Through UGC",
+          "body": "Once we had a solid product and brand presence established on social media, the next challenge was persuasion — we needed content that could convince potential clients to actually take interest. That's when we shifted focus to creating UGC (user-generated content) for the brand. Through this content, we addressed real, relatable problems — like \"Can doors be customized?\" and \"Where can I get the right doors for my home?\" — and positioned Jammu Doors as the solution."
+        }
+      ],
+      "result": "The impact was immediate. People related with the content and queries started pouring in. We've been working with Jammu Doors for a while now and the results have consistently moved in the direction both teams set out to achieve — proving that when the message is clear, the purpose gets served.",
+      "tone": "blue",
+      "image": "/project-images/free-iphone-air.webp",
+      "imagePosition": "center center",
+      "gallery": [
+        {
+          "src": "/project-images/free-iphone-air.webp",
+          "position": "center center"
+        },
+        {
+          "src": "/project-images/iphone-16-pro.webp",
+          "position": "center center"
+        },
+        {
+          "src": "/project-images/mockup-28.webp",
+          "position": "center center"
+        }
+      ]
+    },
+    {
+      "id": "jr-atta",
+      "number": "03",
+      "title": "JR Atta",
+      "subtitle": "Market Expansion & Digital Growth",
+      "summary": "Expansion is essential for any business to grow — every empire thrives by expanding its reach. That's exactly where Bragit stepped in to help JR Foods scale into new markets, including Himachal, Delhi and Punjab.",
+      "tags": [
+        "Digital Marketing",
+        "E-commerce",
+        "Content Strategy"
+      ],
+      "client": "JR Foods",
+      "category": "FMCG Growth Marketing",
+      "period": "2024 — 2025",
+      "services": "Digital Marketing, Content Strategy, E-commerce",
+      "brief": "The focus was simple: convert digital viewers into potential buyers.",
+      "steps": [
+        {
+          "title": "Making the Product Accessible",
+          "body": "We got JR Foods listed on platforms like Blinkit and Amazon, and added \"Now Available\" slides directly into our video content — making it effortless for viewers to go from watching to buying."
+        },
+        {
+          "title": "Building the Right Message",
+          "body": "Through digital content, we crafted a consistent message: your food tastes better with JR Foods. Cooking videos were created to show not just how the JR product enhances taste, but how JR Foods genuinely cares for the people who use it."
+        }
+      ],
+      "result": "By combining accessibility with an emotionally resonant message, Bragit helped JR Foods expand its footprint across Himachal, Delhi and Punjab — turning digital attention into real, measurable buyer interest.",
+      "tone": "orange",
+      "image": "/project-images/iphone-16-pro.webp",
+      "imagePosition": "center center",
+      "gallery": [
+        {
+          "src": "/project-images/iphone-16-pro.webp",
+          "position": "center center"
+        },
+        {
+          "src": "/project-images/brand-identities-1.webp",
+          "position": "center center"
+        },
+        {
+          "src": "/project-images/free-iphone-air.webp",
+          "position": "center center"
+        }
+      ]
+    }
+  ]
+}

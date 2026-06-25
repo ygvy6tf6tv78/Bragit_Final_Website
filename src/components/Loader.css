@@ -1,0 +1,42 @@
+.loader-container {
+  position: fixed;
+  inset: 0;
+  z-index: 9900;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: #fff;
+}
+
+.loader-lockup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: clamp(190px, 22vw, 310px);
+  margin: -52px 0 0 calc(clamp(190px, 22vw, 310px) / -2);
+  display: grid;
+  place-items: center;
+  will-change: transform, opacity;
+}
+
+.loader-logo-reveal {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  animation: loader-logo-wipe 1.15s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.loader-logo-reveal img {
+  display: block;
+  width: 100%;
+  filter: none;
+}
+
+@keyframes loader-logo-wipe {
+  from { clip-path: inset(0 100% 0 0); }
+  to { clip-path: inset(0 0 0 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loader-logo-reveal { animation: none; }
+}

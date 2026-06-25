@@ -1,0 +1,32 @@
+.cursor-spark {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 19px;
+  height: 19px;
+  opacity: 0;
+  pointer-events: none;
+  will-change: transform;
+  transition: opacity 0.2s ease;
+}
+
+.cursor-spark::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--color-yellow);
+  clip-path: polygon(50% 0, 61% 39%, 100% 50%, 61% 61%, 50% 100%, 39% 61%, 0 50%, 39% 39%);
+  filter: drop-shadow(0 2px 4px rgba(11, 11, 11, 0.2));
+  animation: cursor-spark-spin 3.5s linear infinite;
+}
+
+.cursor-spark.is-visible { opacity: 1; }
+
+@keyframes cursor-spark-spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .cursor-spark { display: none; }
+}
